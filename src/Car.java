@@ -1,0 +1,15 @@
+public class Car {
+    // Instance Variables
+    private String model;
+    private int miles;
+
+    // Constructor
+    public Car(String model, int miles) {
+        this.model = model;
+        this.miles = miles;
+    }
+
+    public String toString() {
+        return model + " " + miles + "mi";
+    }
+}
